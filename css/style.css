@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-bar {
+    position: relative;
+    top: 0px; left: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0px;
+    background-color: #f5f5f5;
+}
+
+.top-bar ul {
+    text-decoration: none;
+    
+}
+
+.top-bar li {
+    display: inline;
+}
+
+.top-bar p {
+    color: #bfbfbf;
+}
+
+.top-bar a {
+
+}
+
+.account {
+    color: #bfbfbf;
+}
+
+.login p {
+    position: right;
+}
+
+.login a {
+    color: #14c0c9;
+}
