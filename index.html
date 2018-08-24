@@ -26,21 +26,37 @@
             </div><!--close row-->
         </div><!--close container-->
     </div><!--top bar-->
-    <div class="container">
+    <div class="header container">
         <div class="row">
-            <div class="col-sm-4">
-                <h1><img src="images/logo.jpg" class="logo" alt="logo"></h1>
+            <div class="logo col-sm-4">
+                <h1><img src="images/logo.jpg" alt="logo"></h1>
             </div><!--close col 4-->
-            <div class="col-sm-8">
+            <div class="forms col-sm-8">
                 <ul>
-                    <li><a href="#">US Dollar</a></li>
-                    <li><a href="#">English</a></li>
+                    <li>
+                        <form action="#">
+                            <select name="currency">
+                                <option value="us">US Dollar</option>
+                                <option value="canada>">Ca Dollar</option>
+                                <option value="euro">Euro</option>
+                                <option value="yen">Yen</option>
+                                <option value="peso">Peso</option>
+                            </select>
+                            <select name="language">
+                                <option value="english">English</option>
+                                <option value="francais">Francais</option>
+                                <option value="deutsche">Deutsche</option>
+                                <option value="espanol">Espanol</option>
+                                <option value="nihongo">Nihongo</option>
+                            </select>
+                        </form>
+                    </li>
                     <li><a href="#">0 item(s) - $0.00</a></li>
                 </ul>
             </div><!--close col 8-->
         </div><!--close row-->
         <div class="row">
-            <div class="col-sm-8">
+            <div class="merch col-sm-8">
                 <ul>
                     <li><a href="#">fashion</a></li>
                     <li><a href="#">electronics</a></li>
@@ -50,10 +66,10 @@
                     <li><a href="#">music</a></li>
                 </ul>
             </div><!--close col 8-->
-            <div class="col-sm-4">
+            <div class="search-bar col-sm-4">
                 <form action="http://www.example.org/search.php">
                     <input type="search" placeholder="Search here..." name="search">
-                    <input type="image" src="https://via.placeholder.com/20x20">
+                    <input type="image" src="images/search.png">
                 </form>
             </div><!--close col 4-->
         </div><!--close row-->
@@ -66,7 +82,7 @@
         </div><!--row-->
     </div><!--container-->
     <div class="container">
-        <div class="row row-images">
+        <div class="row promos">
             <div class="col-sm-12">
                 <img src="images/img1.jpg">
                 <img src="images/img2.jpg">
@@ -130,8 +146,8 @@
                 <a href="#">&gt;</a>
             </div><!--close col 6-->
         </div><!--close row-->
-        <div class="row">
-            <div class="best-seller-img col-sm-3">
+        <div class="row bestsellers">
+            <div class="col-sm-3">
                 <img src="images/heels.jpg">
                 <h4>Shoes</h4>
                 <a href="#">add to cart</a>
