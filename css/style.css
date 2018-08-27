@@ -70,7 +70,7 @@ body {
     display: inline;
     padding: 10px;
     text-transform: uppercase;
-    color: #4b4d45;
+    color: #14c0c9;
 }
 
 .merch a {
@@ -86,6 +86,94 @@ body {
     text-align: right;
 }
 
+.hero {
+    margin-top: 20px;
+}
+.promos {
+    margin-top: 20px; 
+    text-align: center; 
+}
+
 .promos img {
     display: center;
+}
+
+.latest {
+    font-family: 'Oswald', sans-serif; 
+}
+
+.latest-items h3 {
+    font-size: 14px; 
+}
+
+.bottom-bar {
+    margin-top: 80px; 
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    background-color: #d4d4d4; 
+}
+
+.bottom-bar p {
+    text-transform: uppercase;
+    color: #3f4747;
+}
+
+.email { 
+    padding: 6px;
+    width: 225px;
+    background-color: #d4d4d4;
+    border: 2px solid yellow; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px; 
+
+}
+
+.submit {
+    padding: 6px 8px 6px 8px;
+    background-color: #424a4a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+}
+.footer {
+    background-color: #424a4a;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer h3 {
+    color: #a4a6a5;
+    text-transform: uppercase;
+    font-size: 16px; 
+}
+
+.footer ul {
+    color: #a4a6a5;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #a4a6a5;
+}
+
+.footer a:hover {
+    color: #14c0c9;
+}
+
+.footer p {
+    color: #a4a6a5;
+}
+
+.footer figcaption {
+    font-size: 11px;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a4a6a5;
+}
+
+
+.links-bar {
+    background-color: #424a4a;
+    font-family: 'Oswald', sans-serif;
+    color: #a4a6a5;
 }
