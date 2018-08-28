@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Project</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -15,10 +16,10 @@
             <div class="row">
                 <div class="account col-sm-6">
                     <ul>
-                        <li><a href="#">My Wishlist (0)</a></li>
-                        <li><a href="#">My Account</a></li>
-                        <li><a href="#">Shopping Cart</a></li>
-                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#"><i class="fas fa-edit"></i>My Wishlist (0)</a></li>
+                        <li><a href="#"><i class="fas fa-user"></i>My Account</a></li>
+                        <li><a href="#"><i class="fas fa-shopping-cart"></i>Shopping Cart</a></li>
+                        <li><a href="#"><i class="fas fa-check"></i>Checkout</a></li>
                     </ul>
                 </div><!--close col 6-->
                 <div class="login col-sm-6">
@@ -35,7 +36,7 @@
             <div class="forms col-sm-8">
                 <ul>
                     <li>
-                        <form action="#">
+                        <form action="#" class="currency">
                             <select name="currency">
                                 <option value="us">US Dollar</option>
                                 <option value="canada>">Ca Dollar</option>
@@ -43,7 +44,7 @@
                                 <option value="yen">Yen</option>
                                 <option value="peso">Peso</option>
                             </select>
-                            <select name="language">
+                            <select name="language" class="language">
                                 <option value="english">English</option>
                                 <option value="francais">Francais</option>
                                 <option value="deutsche">Deutsche</option>
@@ -52,7 +53,7 @@
                             </select>
                         </form>
                     </li>
-                    <li><a href="#">0 item(s) - $0.00</a></li>
+                    <li class="item-count"><a href="#"><i class="fas fa-shopping-cart"></i>0 item(s) - $0.00</a></li>
                 </ul>
             </div><!--close col 8-->
         </div><!--close row-->
@@ -92,12 +93,12 @@
         </div><!--close row-->
     </div><!--close container-->
     <div class="container">
-        <div class="row">
-            <div class="latest col-sm-6">
+        <div class="row main1">
+            <div class="latest col-sm-9">
                 <h2>Latest</h2>
                 <p>Buy discount items from the latest collection of world brands.</p>
             </div><!--close col 6-->
-            <div class="button1 col-sm-6">
+            <div class="button col-sm-3">
                 <a href="#">&lt;</a>
                 <a href="#">&gt;</a>
             </div><!--close 6-->
@@ -126,8 +127,8 @@
         </div><!--close row-->
     </div><!--close container-->
     <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
+        <div class="row main2">
+            <div class="welcome col-sm-6">
                 <h2>Welcome to Venedor</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum praesentium possimus nobis ab non ipsum nihil, impedit magni obcaecati! Doloremque consectetur aspernatur nulla laboriosam pariatur, totam magnam at quos excepturi nam sequi accusamus ipsam animi, veritatis neque ipsum quisquam enim voluptatum autem incidunt dolore illo!<a href="#">Buy Venedor Theme</a></p>
             </div><!--close col 6-->
@@ -137,17 +138,17 @@
         </div><!--close row-->
     </div><!--close container-->
     <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
+        <div class="row main3">
+            <div class="col-sm-6 bestsellers">
                 <h2>Bestsellers</h2>
                 <p>Special offers and biggest discounts for the most popular products.</p>
             </div><!--close col 6-->
-            <div class="col-sm-6">
+            <div class="col-sm-6 button">
                 <a href="#">&lt;</a>
                 <a href="#">&gt;</a>
             </div><!--close col 6-->
         </div><!--close row-->
-        <div class="row bestsellers">
+        <div class="row best-items">
             <div class="col-sm-3">
                 <img src="images/heels.jpg">
                 <h4>Shoes</h4>
@@ -171,11 +172,11 @@
         </div><!--close row-->
     </div><!--close container-->
     <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
+        <div class="row manu">
+            <div class="col-sm-6 manufacturers">
                 <h2>Manufacturers</h2>
             </div><!--close col 6-->
-            <div class="col-sm-6">
+            <div class="col-sm-6 button">
                 <a href="#">&lt;</a>
                 <a href="#">&gt;</a>
             </div><!--close col 6-->
@@ -204,10 +205,10 @@
     <div class="bottom-bar">
         <div class="container">
             <div class="row">
-                <div class="sign col-sm-7">
+                <div class="sign col-sm-6">
                     <p>sign up to receive the latest fashion news</p>
                 </div><!--close col 6-->
-                <div class="col-sm-5">
+                <div class="col-sm-6">
                     <form action="http://www.example.org/subscribe.php">
                         <input class="email" type="text" placeholder="Enter your email address" name="email">
                         <input class="submit" type="submit" value="Sign Up">
@@ -220,7 +221,7 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="myaccount col-sm-3">
                     <h3>my account</h3>
                     <ul>
                         <li><a href="#">My account</a></li>
@@ -231,7 +232,7 @@
                         <li><a href="#">Your vouchers</a></li>
                     </ul>
                 </div><!--close col 3-->
-                <div class="col-sm-3">
+                <div class="info col-sm-3">
                     <h3>information</h3>
                     <ul>
                         <li><a href="#">New products</a></li>
@@ -242,14 +243,14 @@
                         <li><a href="#">Our stores</a></li>
                     </ul>
                 </div><!--close col 3-->
-                <div class="col-sm-3">
+                <div class="twitter col-sm-3">
                     <h3>from twitter</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam aliquid nostrum facilis dolorum nam ea itaque blanditiis laborum molestias accusamus?<a href="#">http://t.co/Maeibi3467</a></p>
-                    <p>about 1 hour ago</p>
+                    <p class="time">about 1 hour ago</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam aliquid nostrum facilis dolorum nam ea itaque blanditiis laborum molestias accusamus?<a href="#">http://t.co/Maeibi3467</a></p>
-                    <p>about 3 hours ago</p>
+                    <p class="time">about 3 hours ago</p>
                 </div><!--close col 3-->
-                <div class="col-sm-3">
+                <div class="facebook col-sm-3">
                     <h3>facebook</h3>
                     <a href="#">Like!</a>
                     <div class="row">
@@ -305,15 +306,15 @@
     <div class="links-bar">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
-                    <img src="https://via.placeholder.com/20x20">
-                    <img src="https://via.placeholder.com/20x20">
-                    <img src="https://via.placeholder.com/20x20">
-                    <img src="https://via.placeholder.com/20x20">
-                    <img src="https://via.placeholder.com/20x20">
-                    <img src="https://via.placeholder.com/20x20">
-                    <img src="https://via.placeholder.com/20x20">
-                    <img src="https://via.placeholder.com/20x20">
+                <div class="links col-sm-6">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fas fa-rss"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-flickr"></i></a>
+                    <a href="#"><i class="fab fa-skype"></i></a>
+                    <a href="#"><i class="far fa-envelope"></i></a>
                 </div><!--close col 6-->
                 <div class="col-sm-6">  
                     <p>&copy;2012 Powered by Woo Commerce<sup>TM</sup>. All Rights Reserved.</p>

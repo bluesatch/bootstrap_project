@@ -34,6 +34,10 @@ body {
     color: #828282;
 }
 
+.account li {
+    padding: 8px;
+}
+
 .login p {
     text-align: right;
 }
@@ -44,6 +48,10 @@ body {
 
 .logo h1 {
     margin: 0;
+}
+
+.header {
+    margin-top: 50px;
 }
 
 .forms ul {
@@ -57,6 +65,16 @@ body {
 
 .forms form {
     display: inline-block;
+}
+
+.item-count {
+    padding: 5px;
+    background-color: #14c0c9;
+}
+
+.item-count a {
+    text-decoration: none;
+    color: white;
 }
 
 .merch ul {
@@ -97,13 +115,104 @@ body {
 .promos img {
     display: center;
 }
-
+.main1 {
+    margin-top: 40px;
+}
 .latest {
     font-family: 'Oswald', sans-serif; 
 }
 
+.latest h2 {
+    border-left: 5px solid #14c0c9;
+    padding-left: 5px;
+}
+
 .latest-items h3 {
+    font-family: 'Oswald', sans-serif; 
     font-size: 14px; 
+}
+
+.latest-items a {
+    padding: 6px;
+    background-color: #424a4a;
+    text-decoration: none;
+    text-align: center; 
+    text-transform: uppercase;
+    color: white;
+}
+
+.button {
+    text-align: right;
+    margin-top: 15px;
+    
+}
+
+.button a {
+    padding: 10px;
+    border: 1px solid #828282;
+    text-decoration: none;
+    color: #a4a6a5;
+    font-size: 24px; 
+
+}
+
+.button a:hover {
+    background-color: #14c0c9;
+    color: white;
+}
+
+.main2 {
+    margin-top: 40px;
+}
+.welcome {
+    font-family: 'Oswald', sans-serif; 
+}
+
+.welcome h2 {
+    border-left: 5px solid #14c0c9;
+    padding-left: 5px;
+}
+
+.img6 {
+    text-align: right; 
+}
+
+.main3 {
+    margin-top: 40px;
+}
+
+
+.bestsellers {
+    font-family: 'Oswald', sans-serif; 
+}
+
+.bestsellers h2 {
+    border-left: 5px solid #14c0c9;
+    padding-left: 5px;
+}
+
+.best-items h3 {
+    font-family: 'Oswald', sans-serif; 
+    font-size: 14px; 
+}
+
+.best-items a {
+    padding: 6px;
+    background-color: #424a4a;
+    text-align: center; 
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.manu {
+    margin-top: 40px;
+}
+
+.manufacturers h2 {
+    border-left: 5px solid #14c0c9;
+    padding-left: 5px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .bottom-bar {
@@ -171,9 +280,14 @@ body {
     color: #a4a6a5;
 }
 
-
 .links-bar {
     background-color: #424a4a;
     font-family: 'Oswald', sans-serif;
+    color: #a4a6a5;
+}
+
+
+.links a {
+    padding: 5px; 
     color: #a4a6a5;
 }
