@@ -46,6 +46,12 @@ body {
     color: #14c0c9;
 }
 
+@media (min-width: 375px) and (max-width: 768px) {
+    .login a {
+        color: red;
+    }
+}
+
 .logo h1 {
     margin: 0;
 }
@@ -107,6 +113,7 @@ body {
 .hero {
     margin-top: 20px;
 }
+    
 .promos {
     margin-top: 20px; 
     text-align: center; 
@@ -156,6 +163,12 @@ body {
 
 }
 
+@media (min-width: 200px) and (max-width: 767px) {
+    .button a{
+        padding: 5px;
+        font-size: 16px;
+    }
+} 
 .button a:hover {
     background-color: #14c0c9;
     color: white;
@@ -205,6 +218,10 @@ body {
     color: white;
 }
 
+.clutch h4 {
+    margin-top: 45px;
+}
+
 .manu {
     margin-top: 40px;
 }
@@ -213,6 +230,12 @@ body {
     border-left: 5px solid #14c0c9;
     padding-left: 5px;
     font-family: 'Oswald', sans-serif;
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+    .manufacturers img {
+        margin: 2px;
+    }
 }
 
 .bottom-bar {
@@ -273,6 +296,10 @@ body {
     color: #a4a6a5;
 }
 
+.info li {
+    margin-right: 0px;
+}
+
 .footer figcaption {
     font-size: 11px;
     text-align: center; 
@@ -285,7 +312,6 @@ body {
     font-family: 'Oswald', sans-serif;
     color: #a4a6a5;
 }
-
 
 .links a {
     padding: 5px; 
